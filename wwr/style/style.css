@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kalam&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
   }
 nav a {
+    text-decoration: none;
+    color: #54f2f2;
     text-align: center;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -20,6 +24,10 @@ main section {
 body {
     background-color: #136f63; 
     color: #54f2f2;
+    font-family: Kalam, 'Abril Fatface', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#f39a9d;
@@ -34,19 +42,23 @@ nav a:hover {
 }
 .icon {
     width: 80px;
+    text-decoration: none;
+    color: #54f2f2;
+    text-align: center;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
-}
-nav a {
-    text-align: center;
-    color: #54f2f2;
-    text-decoration: none;
-}    
+}   
 .book, .join {
     text-align: center;
+    background-color: #f39a9d;
     color: #54f2f2;
     text-decoration: none; 
+    font-size: 18px;
+    padding: 15px 30px; 
+    margin-top: 50px;
+    border-radius: 5px;
 }
 footer a {
     text-align: center;
@@ -58,4 +70,61 @@ footer p {
 } 
 footer p a:hover {
     text-decoration: underline;
+}
+h1 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 22px;
+    margin: 0;
+  }
+  p {
+    font-size: 22px;
+  }
+.home-title {
+    font-family: 'Abril Fatface', Kalam , sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg {
+    background-color: #f39a9d;
+    line-height: 1.5em;
+    text-decoration: none;
+    color: #54f2f2;
+    text-align: center;
+    padding: 35px;
+  }
+#logo_link {
+    text-decoration: none;
+    color: #54f2f2;
+    text-align: center;
+    padding: 5px;
+}
+.msg p {
+    text-decoration: none;
+    color: #54f2f2;
+    text-align: center;
+    padding-bottom: 15px;
+}
+footer {
+    text-decoration: none;
+    color: #54f2f2;
+    text-align: center;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    text-decoration: none;
+    color: #54f2f2;
+    text-align: center;
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #f8f32b;
+}
+main section img {
+    box-sizing: border-box;
 }
