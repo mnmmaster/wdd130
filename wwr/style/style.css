@@ -79,11 +79,12 @@ h1 {
     font-size: 22px;
   }
   h2 {
-    font-size: 22px;
+    font-size: 40px;
     margin: 0;
   }
   p {
     font-size: 22px;
+    text-align: center;
   }
 .home-title {
     font-family: 'Abril Fatface', Kalam , sans-serif;
