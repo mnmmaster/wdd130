@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Black+Ops+One&family=Days+One&family=League+Gothic&family=Russo+One&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+nav a {
+    text-decoration: none;
+    color: #61D095;
+    text-align: center;
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: #583E23; 
+    color: #91818A;
+    font-family: "League Gothic", "Days One", "Russo One ";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:#157145;
+    color: #61D095;
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+nav a:hover {
+    background-color: #DCDC00;
+    color: #61D095;
+} 
+.logo {
+    width: 300px;
+    margin-left: 215px;
+}
+#hero-img {
+    width: 100%;
+}
+footer a {
+    text-align: center;
+    color: #157145;
+    text-decoration: none;
+}
+footer p {
+    font-size: 1.2em;
+} 
+footer p a:hover {
+    text-decoration: underline;
+}
+h1 {
+    color: #583E23;
+    background-color: #91818A;
+    font-size: 500px;
+  }
+  h2 {
+    color: #61D095;
+    font-size: 60px;
+    margin: 0;
+    font-family: "Black Ops One", Bangers, Anton;;
+  }
+  h3 {
+    font-size: 40px;
+    margin: 100px;
+  }
+  h4 {
+    color: #157145;
+        background-color: #91818A;
+    font-size: 35px;
+  }
+  p {
+    font-size: 22px;
+    text-align: center;
+  }
+  .home-title {
+    font-family: "Black Ops One", Bangers, Anton;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg {
+    background-color: #583E23;
+    line-height: 1.5em;
+    text-decoration: none;
+    color: #91818A;
+    text-align: center;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #DCDC00;
+  }
+  #logo_link {
+    text-decoration: none;
+    color: #91818A;
+    text-align: center;
+    padding: 5px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.msg p {
+    text-decoration: none;
+    color: #91818A;
+    text-align: center;
+    padding-bottom: 15px;
+}
+footer {
+    text-decoration: none;
+    color: #91818A;
+    text-align: center;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .social img {
+    text-decoration: none;
+    color: #91818A;
+    text-align: center;
+    padding-top: 15px;
+}
+.wood-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #61D095;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #91818A;
+}
+main section img {
+    box-sizing: border-box;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+.card-img {
+    width: 50%;
+}
+#background {
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+.home-grid {
+    margin-top: -150px;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
